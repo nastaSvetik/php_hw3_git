@@ -1,0 +1,124 @@
+.header-main{
+	height: 50px;
+	background: #1a98f2;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	}
+.header-container{
+	height: 100%;
+	}
+.header-logo{
+	float: left;
+	height: 100%;
+	}
+.header-nav{
+	padding-top: 13px;
+	}
+a {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	color: white;
+	text-shadow: #fcbafa 2px 3px 4px;
+}
+a:hover { 
+    color: #e1edec;
+ }   
+.separate-line{
+	height: 5px;
+	background: #bebbc1;
+	width: 100%;
+	box-shadow:  0 0 2px rgba(0,0,0,0.5);
+}
+BODY {
+  background: #bebbc1;
+  text-align: center;
+  font-family: Georgia;
+}
+H1 {
+  font-size: 40px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: -1px -1px #a298ad,
+               -2px -2px #a298ad,
+               -1px 1px #a298ad,
+               -2px 2px #a298ad,
+               1px 1px #a298ad,
+               2px 2px #a298ad,
+               1px -1px #a298ad,
+               2px -2px #a298ad,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: #4d4d4d;
+  transition: all 1s;
+  }
+  H1:hover {
+    color: #1a98f2;
+    }
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+ }
+.wrapper {
+	display: flex;
+  
+  flex-direction: column;
+  height: 100%;
+  width: 900px;
+  margin: auto;
+  box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+.content {
+ 
+  flex: 1 0 auto;
+  background: #f3eafc;
+}
+.footer {
+  flex: 0 0 auto;
+  height: 90px;
+  background: #1a98f2;
+}
+.main-block{
+margin: 40px 160px;
+}
+.info-line{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 14px;
+text-align: left;
+color: #4d4d4d;
+}
+.info-left{
+float: left;
+margin-bottom: 5px;
+}
+.info-right{
+margin-left: 300px;	
+text-align: left;
+margin-bottom: 5px;
+}
+.h2-content{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: normal;
+cursor: pointer;
+text-shadow: #BBB 2px 3px 4px;
+
+color: #4d4d4d;
+transition: all 1s;
+  }	
+.h2-content:hover {
+    color: #1a98f2;
+
+}
